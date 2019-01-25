@@ -1,16 +1,18 @@
 name: coding_exercise
 
+channels:
+    - conda-forge
+    - defaults
+
 dependencies:
     - python>=3.6
     - jupyter
-    - gdal>=2.3.0
-    - libgdal>=2.3.0
+    - gdal=2.3.4
+    - libgdal=2.3.4
     - numpy
     - scipy
     - matplotlib
     - pandas
-    - requests
     - nbconvert
     - pandoc
-    - texlive-core
     - jupyter_contrib_nbextensions
